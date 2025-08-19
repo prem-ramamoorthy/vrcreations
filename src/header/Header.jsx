@@ -38,7 +38,7 @@ function Header() {
               </nav>
             </div>
 
-            <a href="/loginpage/index.html" className="btn btn-primary">Signin</a>
+            <NavLink to="/signin" className="btn btn-primary">Signin</NavLink>
 
           </div>
         </div>
