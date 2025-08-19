@@ -7,7 +7,7 @@ function Header() {
 
             <div className="logo">
               <div className="logo-icon">
-                <a href="/index.html">
+                <a href="/">
                   <img
                     src="/assets/logo.png"
                     alt="VR Creations Logo"
@@ -20,19 +20,19 @@ function Header() {
             </div>
 
             <div className="nav-links">
-              <a href="/statics/protfolio.html" className="nav-link">Portfolio</a>
-              <a href="/statics/contact-us.html" className="nav-link">Contact Us</a>
-              <a href="/statics/services.html" className="nav-link">Services</a>
-              <a href="/statics/about-us.html" className="nav-link">About Us</a>
+              <a href="/protfolio" className="nav-link">Portfolio</a>
+              <a href="/contactus" className="nav-link">Contact Us</a>
+              <a href="/services" className="nav-link">Services</a>
+              <a href="/aboutus" className="nav-link">About Us</a>
             </div>
 
             <div className="sidebar-container">
               <button className="sidebar-toggle">&#9776;</button>
               <nav className="sidebar">
-                <a href="/statics/protfolio.html" className="nav-link">Portfolio</a>
-                <a href="/statics/contact-us.html" className="nav-link">Contact Us</a>
-                <a href="/statics/services.html" className="nav-link">Services</a>
-                <a href="/statics/about-us.html" className="nav-link">About Us</a>
+                <a href="/protfolio" className="nav-link">Portfolio</a>
+                <a href="/contactus" className="nav-link">Contact Us</a>
+                <a href="/services" className="nav-link">Services</a>
+                <a href="/aboutus" className="nav-link">About Us</a>
               </nav>
             </div>
 
