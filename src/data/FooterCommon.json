@@ -1,0 +1,45 @@
+{
+    "Quick Links": [
+        {
+            "label": "Home",
+            "url": "/"
+        },
+        {
+            "label": "About",
+            "url": "/about"
+        },
+        {
+            "label": "Services",
+            "url": "/services"
+        },
+        {
+            "label": "Portfolio",
+            "url": "/portfolio"
+        },
+        {
+            "label": "Contact",
+            "url": "/contact"
+        }
+    ],
+    "Services": [
+        {
+            "label": "Software Development",
+            "url": "/services"
+        },
+        {
+            "label": "Hardware Projects",
+            "url": "/services"
+        },
+        {
+            "label": "Documentation",
+            "url": "/services"
+        },
+        {
+            "label": "Prototyping",
+            "url": "/services"
+        }
+    ],
+    "Contact Info": [
+        "📧 info@vrcreations.com" , "📞 +1 (555) 123-4567" ,"📍 123 Innovation St, Tech City"
+    ]
+}

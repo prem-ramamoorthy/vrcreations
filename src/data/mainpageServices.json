@@ -1,0 +1,90 @@
+[
+    {
+        "icon" : "code" ,
+        "header" : "Software Development" ,
+        "description" : "Full-stack web applications, mobile apps, desktop software, and custom solutions tailored toyour project requirements.",
+        "features" : [
+            "Web Applications" ,
+            "Mobile Apps" ,
+            "Desktop Software" ,
+            "API Development"
+        ]
+    },
+    {
+        "icon" : "cpu" ,
+        "header" : "Hardware Solutions" ,
+        "description" : "Circuit design, PCB development, IoT systems, and embedded programming for your hardware-based projects.",
+        "features" : [
+            "Circuit Design" ,
+            "PCB Development" ,
+            "IoT Systems" ,
+            "Embedded Programming"
+        ]
+    } ,
+    {
+        "icon" : "file-text" ,
+        "header" : "Documentation" ,
+        "description" : "Comprehensive project documentation, research papers, technical reports, and presentation materials.",
+        "features" : [
+            "Technical Reports" ,
+            "Research Papers" ,
+            "User Manuals" ,
+            "Presentations"
+        ]
+    } ,
+    {
+        "icon" : "wrench" ,
+        "header" : "Prototyping" ,
+        "description" : "Create functional prototypes for testing and validation, Prepare models for manufacturing and 3D printing.",
+        "features" : [
+            "Product samples" ,
+            "Manufacturing-ready models" ,
+            "Custom builds"
+        ]
+    } ,
+    {
+        "icon" : "database" ,
+        "header" : "Data Solutions" ,
+        "description" : "Database design, data analysis, machine learning models, and data visualization dashboards.",
+        "features" : [
+            "Database Design" ,
+            "Data Analysis" ,
+            "ML Models" ,
+            "Visualization"
+        ]
+    } ,
+    {
+        "icon" : "smartphone" ,
+        "header" : "UI/UX Design" ,
+        "description" : "Modern user interfaces, user experience optimization, wireframing, and interactive prototypes.",
+        "features" : [
+            "UI Design" ,
+            "UX Research" ,
+            "Wireframing" ,
+            "Interactive Prototypes"
+        ]
+    } ,
+    {
+        "icon" : "globe" ,
+        "header" : "Web Technologies" ,
+        "description" : "Modern web frameworks, responsive design, progressive web apps, and cloud deployment.",
+        "features" : [
+            "React/Angular/Vue" ,
+            "Responsive Design" ,
+            "PWAs" ,
+            "Cloud Deployment"
+        ]
+    } ,
+    {
+        "icon" : "settings" ,
+        "header" : "3D Designing/ Modelling" ,
+        "description" : "We turn ideas into detailed, lifelike 3D models—perfect for prototypes, visuals, and creative projects. Precision, creativity, and functionality in every design.",
+        "features" : [
+            "Prototyping" ,
+            "Visualization" ,
+            "Rendering" ,
+            "Animation"
+        ]
+    }
+
+]

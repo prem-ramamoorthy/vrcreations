@@ -1,0 +1,76 @@
+{
+    "projectTypes" : [
+        {
+            "name" :"Select Project Type" ,
+            "value" : ""
+        } ,
+        {
+            "name" :"Software Development"  ,
+            "value" : "software"
+        } , 
+        {
+            "name" : "Hardware Engineering" ,
+            "value" : "hardware"
+        } ,
+        {
+            "name" : "Technical Documentation" ,
+            "value" : "documentation"
+        } ,
+        {
+            "name" : "Prototyping & Testing" ,
+            "value" : "prototype"
+        } ,
+        {
+            "name" : "Complete Solution (A to Z)" ,
+            "value" : "complete"
+        }
+    ] ,
+    "projectTime" : [
+        {
+            "name" :"Select Timeline" ,
+            "value" : ""
+        } ,
+                {
+            "name" :"Urgent (1-2 weeks)",
+            "value" : "urgent"
+        } ,
+        {
+            "name" :"Normal (3-4 weeks)" ,
+            "value" : "normal"
+        } ,
+                {
+            "name" : "Extended (5+ weeks)",
+            "value" : "extended"
+        } ,
+                {
+            "name" : "Flexible" ,
+            "value" : "flexible"
+        }
+    ] , 
+    "budget" : [
+        {
+            "name" :"Select Budget Range" ,
+            "value" : ""
+        } ,
+        {
+            "name" :"Under $500" ,
+            "value" : "under-500"
+        } ,
+        {
+            "name" :"$500 - $1,000" ,
+            "value" : "500-1000"
+        } ,
+        {
+            "name" : "$1,000 - $2,000" ,
+            "value" : "1000-2000"
+        } ,
+        {
+            "name" : "$2,000+" ,
+            "value" : "2000-plus"
+        } ,
+        {
+            "name" : "Let's Discuss" ,
+            "value" : "discuss"
+        }
+    ]
+}

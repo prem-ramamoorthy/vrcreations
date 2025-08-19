@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Consultation",
+        "description": "We discuss your requirements, timeline, and expectations to create a tailored solution."
+    },
+    {
+        "title": "Planning",
+        "description": "Detailed project plan with milestones, deliverables, and timeline is created."
+    },
+    {
+        "title": "Development",
+        "description": "Our expert team works on your project with regular updates and progress reports."
+    },
+    {
+        "title": "Testing",
+        "description": "Comprehensive testing and quality assurance to ensure everything works perfectly."
+    },
+    {
+        "title": "Delivery",
+        "description": "Final project delivery with documentation, source code, and presentation support."
+    },
+    {
+        "title": "Support",
+        "description": "Post-delivery support and assistance for presentations and project defense."
+    }
+]

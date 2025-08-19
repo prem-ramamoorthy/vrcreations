@@ -1,0 +1,32 @@
+[
+    {
+        "icon" : "check-circle" ,
+        "title" : "Quality Guaranteed" , 
+        "description" : "Every project meets the highest academic standards with thorough testing and review."
+    } ,
+    {
+        "icon" : "clock" ,
+        "title" : "On-Time Delivery" , 
+        "description" : "We understand deadlines matter. Your project will be delivered exactly when you need it."
+    } ,
+    {
+        "icon" : "users" ,
+        "title" : "Expert Team" , 
+        "description" : "Our diverse team includes software engineers, hardware specialists, and technical writers."
+    } ,
+    {
+        "icon" : "trophy" ,
+        "title" : "Academic Excellence" , 
+        "description" : "Designed to help you achieve top grades with innovative and impressive project outcomes."
+    } ,
+    {
+        "icon" : "shield" ,
+        "title" : "Plagiarism-Free" , 
+        "description" : "100% original work tailored specifically to your requirements and specifications."
+    } ,
+    {
+        "icon" : "zap" ,
+        "title" : "Latest Technologies" , 
+        "description" : "We use cutting-edge tools and frameworks to ensure your project stands out."
+    }
+]

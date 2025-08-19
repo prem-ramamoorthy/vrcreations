@@ -1,0 +1,71 @@
+{
+    "footerFirst": {
+        "header": "VR Creations",
+        "description": "Empowering students with professional project solutions from concept to completion."
+    },
+    "footer": [
+        {
+            "header": "Quick Links",
+            "list": [
+                {
+                    "name": "Home",
+                    "link": "/"
+                },
+                {
+                    "name": "About",
+                    "link": "/about"
+                },
+                {
+                    "name": "Services",
+                    "link": "/services"
+                },
+                {
+                    "name": "Portfolio",
+                    "link": "/portfolio"
+                },
+                {
+                    "name": "Contact",
+                    "link": "/contact"
+                }
+            ]
+        },
+        {
+            "header": "Services",
+            "list": [
+                {
+                    "name": "Software Development",
+                    "link": "/services"
+                },
+                {
+                    "name": "Hardware Projects",
+                    "link": "/services"
+                },
+                {
+                    "name": "Documentation",
+                    "link": "/services"
+                },
+                {
+                    "name": "Prototyping",
+                    "link": "/services"
+                }
+            ]
+        },
+        {
+            "header": "Contact Info",
+            "list": [
+                {
+                    "name": "📧 info@vrcreations.com",
+                    "link": null
+                },
+                {
+                    "name": "📞 +1 (555) 123-4567",
+                    "link": null
+                },
+                {
+                    "name": "📍 123 Innovation St, Tech City",
+                    "link": null
+                }
+            ]
+        }
+    ]
+}

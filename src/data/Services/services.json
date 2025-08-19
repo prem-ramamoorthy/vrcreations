@@ -1,0 +1,54 @@
+[
+  {
+    "icon": "code",
+    "title": "Software Development",
+    "description": "Complete software solutions from web applications to mobile apps, desktop software, and system programming.",
+    "features": [
+      "Web Applications (React, Angular, Vue)",
+      "Mobile Apps (iOS, Android, Flutter)",
+      "Desktop Software (Python, Java, C++)",
+      "Database Design & Implementation",
+      "API Development & Integration"
+    ],
+    "price": "Starting from $299"
+  },
+  {
+    "icon": "cpu",
+    "title": "Hardware Engineering",
+    "description": "From circuit design to embedded systems, we handle all your hardware project requirements.",
+    "features": [
+      "Circuit Design & PCB Layout",
+      "Embedded Systems (Arduino, Raspberry Pi)",
+      "IoT Device Development",
+      "Sensor Integration & Automation",
+      "Hardware Testing & Validation"
+    ],
+    "price": "Starting from $399"
+  },
+  {
+    "icon": "file-text",
+    "title": "Technical Documentation",
+    "description": "Comprehensive documentation that meets academic standards and industry best practices.",
+    "features": [
+      "Project Reports & Thesis",
+      "Technical Specifications",
+      "User Manuals & Guides",
+      "Research Papers & Publications",
+      "Code Documentation & Comments"
+    ],
+    "price": "Starting from $199"
+  },
+  {
+    "icon": "box",
+    "title": "Prototyping & Testing",
+    "description": "Rapid prototyping and thorough testing to ensure your project works flawlessly.",
+    "features": [
+      "3D Modeling & Printing",
+      "Proof of Concept Development",
+      "Performance Testing & Optimization",
+      "Quality Assurance & Debugging",
+      "Demo & Presentation Preparation"
+    ],
+    "price": "Starting from $249"
+  }
+]

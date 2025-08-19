@@ -1,0 +1,135 @@
+[
+    {
+        "category": "Software",
+        "icon": "smartphone",
+        "projectTitle": "Smart Campus Navigation App",
+        "description": "A mobile application that helps students navigate campus buildings with real-time location tracking and indoor mapping.",
+        "techTag": [
+            "React Native",
+            "Firebase",
+            "Google Maps API"
+        ],
+        "grade": "A+",
+        "links": [
+            {
+                "icon": "github",
+                "link": "#"
+            },
+            {
+                "icon": "external-link",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "category": "Hardware",
+        "icon": "home",
+        "projectTitle": "IoT Home Automation System",
+        "description": "Complete smart home solution with sensor integration, automated lighting, and remote control via mobile app.",
+        "techTag": [
+            "Arduino",
+            "ESP32",
+            "IoT Sensors"
+        ],
+        "grade": "A",
+        "links": [
+            {
+                "icon": "github",
+                "link": "#"
+            },
+            {
+                "icon": "play-circle",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "category": "Software",
+        "icon": "shopping-cart",
+        "projectTitle": "E-Commerce Platform",
+        "description": "Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
+        "techTag": [
+            "React",
+            "Node.js",
+            "MongoDB",
+            "Stripe API"
+        ],
+        "grade": "A+",
+        "links": [
+            {
+                "icon": "github",
+                "link": "#"
+            },
+            {
+                "icon": "external-link",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "category": "Hardware",
+        "icon": "activity",
+        "projectTitle": "Health Monitoring Device",
+        "description": "Wearable device that monitors vital signs and sends real-time data to healthcare providers.",
+        "techTag": [
+            "Raspberry Pi",
+            "Sensors",
+            "Bluetooth"
+        ],
+        "grade": "A",
+        "links": [
+            {
+                "icon": "github",
+                "link": "#"
+            },
+            {
+                "icon": "file-text",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "category": "Software",
+        "icon": "graduation-cap",
+        "projectTitle": "Student Management System",
+        "description": "Comprehensive system for managing student records, grades, attendance, and course scheduling.",
+        "techTag": [
+            "Java",
+            "Spring Boot",
+            "MySQL"
+        ],
+        "grade": "A+",
+        "links": [
+            {
+                "icon": "github",
+                "link": "#"
+            },
+            {
+                "icon": "external-link",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "category": "Prototype",
+        "icon": "car",
+        "projectTitle": "Autonomous Vehicle Prototype",
+        "description": "Scale model of an autonomous vehicle with obstacle detection, path planning, and remote monitoring.",
+        "techTag": [
+            "Computer Vision",
+            "Python",
+            "OpenCV"
+        ],
+        "grade": "A",
+        "links": [
+            {
+                "icon": "github",
+                "link": "#"
+            },
+            {
+                "icon": "play-circle",
+                "link": "#"
+            }
+        ]
+    }
+]

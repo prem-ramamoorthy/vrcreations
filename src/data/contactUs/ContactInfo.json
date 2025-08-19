@@ -1,0 +1,54 @@
+[
+    {
+        "icon" : "mail" , 
+        "title" : "Email Us" ,
+        "details" : [
+            {
+                "link" : "mailto:info@vrcreations.com" ,
+                "name" :"info@vrcreations.com"
+            },
+            {
+                "link" : "mailto:projects@vrcreations.com",
+                "name" : "projects@vrcreations.com" 
+            }
+        ] ,
+        "footer" : "Response within 24 hours"
+    },
+    {
+        "icon" : "phone" , 
+        "title" : "Call Us" ,
+        "details" : [
+            {
+                "link" : "tel:+15551234567" ,
+                "name" : "+1 (555) 123-4567"
+            },
+            {
+                "link" : "tel:+15551234568",
+                "name" : "+1 (555) 123-4568"
+            }
+        ] ,
+        "footer" : "Mon-Fri: 9 AM - 8 PM EST"
+    },
+    {
+        "icon" : "MessageCircle" , 
+        "title" : "Live Chat" ,
+        "details" : [
+            {
+                "link" : "https://wa.me/15551234567" ,
+                "name" : "WhatsApp: +1 (555) 123-4567"
+            },
+            {
+                "link" : "tel:+15551234568",
+                "name" : "Telegram: @vrcreations"
+            }
+        ] ,
+        "footer" : "Available 24/7"
+    },
+    {
+        "icon" : "MapPin" , 
+        "title" : "Visit Us" ,
+        "details" : [
+            "123 Innovation Street" , "Tech District, TC 12345" , "United States"
+        ]
+    }
+]

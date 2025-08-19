@@ -1,0 +1,78 @@
+{
+    "socialLinks" : [
+        {
+            "icon" :"facebook",
+            "link" : "#"
+        } , 
+        {
+            "icon" : "twitter" ,
+            "link" : "#"
+        }  ,
+        {
+            "icon" : "instagram",
+            "link" : "#"
+        }  ,
+        {
+            "icon" : "linkedin" ,
+            "link" : "#"
+        }
+    ] ,
+    "ContactUs" : [
+        {
+            "icon" : "phone" ,
+            "details" : "+91 8610237292"
+        },
+        {
+            "icon" : "mail" ,
+            "details" : "vrcreationsstudio@gmail.com"
+        },
+        {
+            "icon" : "MapPin" ,
+            "details" : "VIT Bhopal , MadhyaPradesh"
+        }
+    ] ,
+    "Company" : [
+        {
+            "name" : "About Us" ,
+            "link" : "#"
+        },
+        {
+            "name" : "Our Team" ,
+            "link" : "#"
+        },
+        {
+            "name" : "Careers" ,
+            "link" : "#"
+        },
+        {
+            "name" : "Contact Us",
+            "link" : "#"
+        },
+        {
+            "name" : "Portfolio" ,
+            "link" : "#"
+        }
+    ] ,
+    "Legal" : [
+        {
+            "name" : "Privacy Policy" ,
+            "link" : "#"
+        },
+        {
+            "name" : "Terms of Service" ,
+            "link" : "#"
+        },
+        {
+            "name" : "Cookie Policy" ,
+            "link" : "#"
+        },
+        {
+            "name" : "Refund Policy",
+            "link" : "#"
+        },
+        {
+            "name" : "Academic Ethics" ,
+            "link" : "#"
+        }
+    ]
+}

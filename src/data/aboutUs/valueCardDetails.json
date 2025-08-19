@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "award",
+        "title": "Quality Excellence",
+        "description": "We deliver projects that meet the highest academic and professional standards."
+    },
+    {
+        "icon": "clock",
+        "title": "Timely Delivery",
+        "description": "Your deadlines are our priority. We ensure on-time project completion."
+    },
+    {
+        "icon": "shield-check",
+        "title": "Academic Integrity",
+        "description": "All our work follows strict academic guidelines and ethical standards."
+    },
+    {
+        "icon": "headphones",
+        "title": "Dedicated Support",
+        "description": "24/7 support and guidance throughout your project journey."
+    }
+]
