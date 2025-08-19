@@ -11,7 +11,7 @@ const SignInSignUp = () => {
   useEffect(() => {
     const link = document.createElement("link");
     link.rel = "stylesheet";
-    link.href = "/src/styles/signinStyle.css";
+    link.href = "/styles/signinStyle.css";
     document.head.appendChild(link);
 
     return () => {
@@ -82,7 +82,7 @@ const SignInSignUp = () => {
               Sign up
             </button>
           </div>
-          <img src="/src/assets/log.svg" className="image" alt="sign in illustration" />
+          <img src="/assets/log.svg" className="image" alt="sign in illustration" />
         </div>
 
         <div className="panel right-panel">
@@ -101,7 +101,7 @@ const SignInSignUp = () => {
             </button>
           </div>
           <img
-            src="/src/assets/register.svg"
+            src="/assets/register.svg"
             className="image"
             alt="sign up illustration"
           />
