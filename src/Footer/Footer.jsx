@@ -50,7 +50,7 @@ function Footer() {
                             <div className="logo">
                                 <div className="logo-icon">
                                     <a href="/index.html">
-                                        <img src="src/assets/logo-inverted.png" alt="VR Creations Logo" height="50"
+                                        <img src="/assets/logo-inverted.png" alt="VR Creations Logo" height="50"
                                             width="90" />
                                     </a>
                                 </div>

@@ -9,7 +9,7 @@ function Header() {
               <div className="logo-icon">
                 <a href="/index.html">
                   <img
-                    src="src/assets/logo.png"
+                    src="/assets/logo.png"
                     alt="VR Creations Logo"
                     height="50"
                     width="90"

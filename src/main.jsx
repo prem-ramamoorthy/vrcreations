@@ -9,6 +9,6 @@ import Signin from './signupPage/Signin'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Signin />
+    <MainPage />
   </StrictMode>,
 )

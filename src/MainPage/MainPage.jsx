@@ -11,12 +11,12 @@ function MainPage() {
     useEffect(() => {
         const link = document.createElement("link");
         link.rel = "stylesheet";
-        link.href = "/src/styles/styleFull.css";
+        link.href = "/styles/styleFull.css";
         document.head.appendChild(link);
 
         const link2 = document.createElement("link");
         link2.rel = "stylesheet";
-        link2.href = "/src/styles/headerStyle.css";
+        link2.href = "/styles/headerStyle.css";
         document.head.appendChild(link2);
 
         return () => {
