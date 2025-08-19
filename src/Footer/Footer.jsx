@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import * as Icons from "lucide-react";
 import data from '../data/MainFooter.json';
+import '../styles/footerStyle.css'
 
 function Footer() {
 
@@ -42,57 +43,59 @@ function Footer() {
     })
 
     return (
-        <footer className="footer">
-            <div className="container">
-                <div className="footer-content">
-                    <div>
-                        <div className="footer-brand">
-                            <div className="logo">
-                                <div className="logo-icon">
-                                    <a href="/index.html">
-                                        <img src="/assets/logo-inverted.png" alt="VR Creations Logo" height="50"
-                                            width="90" />
-                                    </a>
+        <div className="footer-page">
+            <footer className="footer">
+                <div className="container">
+                    <div className="footer-content">
+                        <div>
+                            <div className="footer-brand">
+                                <div className="logo">
+                                    <div className="logo-icon">
+                                        <a href="/index.html">
+                                            <img src="/assets/logo-inverted.png" alt="VR Creations Logo" height="50"
+                                                width="90" />
+                                        </a>
+                                    </div>
+                                    <span className="logo-text">CREATIONS</span>
                                 </div>
-                                <span className="logo-text">CREATIONS</span>
+                            </div>
+                            <p className="footer-description">
+                                Empowering students with professional-grade project solutions.
+                                From software to hardware, documentation to prototypes - we deliver excellence.
+                            </p>
+                            <div className="social-links">
+                                {socialLinkComponent}
                             </div>
                         </div>
-                        <p className="footer-description">
-                            Empowering students with professional-grade project solutions.
-                            From software to hardware, documentation to prototypes - we deliver excellence.
-                        </p>
-                        <div className="social-links">
-                            {socialLinkComponent}
+
+                        <div>
+                            <h3 className="footer-section-title">Contact Us</h3>
+                            {contactUsComponent}
+                        </div>
+
+                        <div>
+                            <h3 className="footer-section-title">Company</h3>
+                            <ul className="footer-links">
+                                {companyComponent}
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h3 className="footer-section-title">Legal</h3>
+                            <ul className="footer-links">
+                                {legalComponent}
+                            </ul>
                         </div>
                     </div>
 
-                    <div>
-                        <h3 className="footer-section-title">Contact Us</h3>
-                        {contactUsComponent}
-                    </div>
-
-                    <div>
-                        <h3 className="footer-section-title">Company</h3>
-                        <ul className="footer-links">
-                            {companyComponent}
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h3 className="footer-section-title">Legal</h3>
-                        <ul className="footer-links">
-                            {legalComponent}
-                        </ul>
+                    <div className="footer-bottom">
+                        <p className="footer-bottom-text">
+                            © 2024 VR Creations. All rights reserved. Empowering academic excellence through innovation.
+                        </p>
                     </div>
                 </div>
-
-                <div className="footer-bottom">
-                    <p className="footer-bottom-text">
-                        © 2024 VR Creations. All rights reserved. Empowering academic excellence through innovation.
-                    </p>
-                </div>
-            </div>
-        </footer>
+            </footer>
+        </div>
     )
 }
 

@@ -1,0 +1,388 @@
+:root {
+    --background: 210 40% 2%;
+    --foreground: 213 31% 91%;
+    --primary: 263 70% 50%;
+    --primary-foreground: 213 31% 91%;
+    --secondary: 214 32% 91%;
+    --secondary-foreground: 215 25% 27%;
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+    --ring: 263 70% 50%;
+    --radius: 0.5rem;
+    --vr-purple: 263 70% 50%;
+    --vr-purple-dark: 263 70% 40%;
+    --vr-purple-light: 263 70% 60%;
+    --vr-dark: 210 40% 2%;
+    --vr-dark-secondary: 216 34% 17%;
+    --vr-gray: 215.4 16.3% 56.9%;
+    --vr-light-gray: 214 32% 91%;
+    --gradient-primary: linear-gradient(135deg, hsl(263 70% 50%), hsl(263 70% 60%));
+    --gradient-hero: linear-gradient(135deg, hsl(210 40% 2%), hsl(216 34% 17%));
+    --gradient-card: linear-gradient(145deg, hsl(216 34% 17% / 0.05), hsl(263 70% 50% / 0.1));
+    --shadow-soft: 0 2px 8px hsl(210 40% 2% / 0.1);
+    --shadow-medium: 0 4px 16px hsl(210 40% 2% / 0.15);
+    --shadow-large: 0 8px 32px hsl(263 70% 50% / 0.3);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.service-page body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: hsl(var(--background));
+    color: hsl(var(--foreground));
+    line-height: 1.6;
+}
+
+.service-page .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.service-page .nav {
+    background: hsl(var(--background) / 0.95);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    border-bottom: 1px solid hsl(var(--border));
+}
+
+.service-page .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+
+.service-page .nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: hsl(var(--foreground));
+}
+
+.service-page .nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.service-page .nav-links a {
+    text-decoration: none;
+    color: hsl(var(--muted-foreground));
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.service-page .nav-links a:hover,
+.service-page .nav-links a.active {
+    color: hsl(var(--vr-purple));
+}
+
+.service-page .nav-button {
+    background: var(--gradient-primary);
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.service-page .nav-button:hover {
+    opacity: 0.9;
+}
+
+.service-page .hero {
+    background: var(--gradient-hero);
+    padding: 8rem 0 4rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-page .hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 30% 40%, hsl(var(--vr-purple) / 0.2) 0%, transparent 50%);
+}
+
+.service-page .hero-content {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    max-width: 4xl;
+    margin: 0 auto;
+}
+
+.service-page .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.service-page .hero p {
+    font-size: 1.25rem;
+    color: hsl(var(--muted-foreground));
+    margin-bottom: 2rem;
+}
+
+.service-page .services-section {
+    padding: 4rem 0;
+}
+
+.service-page .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.service-page .service-card {
+    background: var(--gradient-card);
+    border: 1px solid hsl(var(--border));
+    border-radius: 1rem;
+    padding: 2rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-page .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-large);
+}
+
+.service-page .service-icon {
+    width: 60px;
+    height: 60px;
+    background: var(--gradient-primary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.service-page .service-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: hsl(var(--foreground));
+}
+
+.service-page .service-desc {
+    color: hsl(var(--muted-foreground));
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+}
+
+.service-page .service-features {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.service-page .service-features li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: hsl(var(--muted-foreground));
+    font-size: 0.95rem;
+}
+
+.service-page .service-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    border-top: 1px solid hsl(var(--border));
+}
+
+.service-page .price-text {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: hsl(var(--vr-purple));
+}
+
+.service-page .service-button {
+    background: var(--gradient-primary);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.service-page .service-button:hover {
+    opacity: 0.9;
+}
+
+.service-page .process-section {
+    padding: 4rem 0;
+    background: hsl(var(--muted) / 0.3);
+}
+
+.service-page .process-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.service-page .process-step {
+    text-align: center;
+    padding: 2rem;
+    background: hsl(var(--background));
+    border-radius: 1rem;
+    border: 1px solid hsl(var(--border));
+    position: relative;
+}
+
+.service-page .step-number {
+    width: 60px;
+    height: 60px;
+    background: var(--gradient-primary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.service-page .step-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: hsl(var(--foreground));
+}
+
+.service-page .step-desc {
+    color: hsl(var(--muted-foreground));
+}
+
+.service-page .faq-section {
+    padding: 4rem 0;
+}
+
+.service-page .faq-grid {
+    display: grid;
+    gap: 1rem;
+    margin-top: 3rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-page .faq-item {
+    background: var(--gradient-card);
+    border: 1px solid hsl(var(--border));
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.service-page .faq-question {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 1.5rem;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: hsl(var(--foreground));
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-page .faq-answer {
+    padding: 0 1.5rem 1.5rem;
+    color: hsl(var(--muted-foreground));
+    line-height: 1.7;
+}
+
+.service-page .footer {
+    background: hsl(var(--background));
+    border-top: 1px solid hsl(var(--border));
+    padding: 3rem 0 1rem;
+}
+
+.service-page .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.service-page .footer-section h4 {
+    color: hsl(var(--foreground));
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.service-page .footer-section ul {
+    list-style: none;
+}
+
+.service-page .footer-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+.service-page .footer-section a {
+    color: hsl(var(--muted-foreground));
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.service-page .footer-section a:hover {
+    color: hsl(var(--vr-purple));
+}
+
+.service-page .footer-bottom {
+    border-top: 1px solid hsl(var(--border));
+    padding-top: 1rem;
+    text-align: center;
+    color: hsl(var(--muted-foreground));
+}
+
+@media (max-width: 768px) {
+    .service-page .nav-links {
+        display: none;
+    }
+
+    .service-page .hero h1 {
+        font-size: 2rem;
+    }
+
+    .service-page .services-grid {
+        grid-template-columns: 1fr;
+    }
+}
