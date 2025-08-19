@@ -1,3 +1,5 @@
+import { Link, NavLink } from 'react-router-dom';
+
 function Header() {
   return (
     <div className="header">
@@ -20,19 +22,19 @@ function Header() {
             </div>
 
             <div className="nav-links">
-              <a href="/protfolio" className="nav-link">Portfolio</a>
-              <a href="/contactus" className="nav-link">Contact Us</a>
-              <a href="/services" className="nav-link">Services</a>
-              <a href="/aboutus" className="nav-link">About Us</a>
+              <NavLink to="/portfolio" className="nav-link">Portfolio</NavLink>
+              <NavLink to="/contactus" className="nav-link">Contact Us</NavLink>
+              <NavLink to="/services" className="nav-link">Services</NavLink>
+              <NavLink to="/aboutus" className="nav-link">About Us</NavLink>
             </div>
 
             <div className="sidebar-container">
               <button className="sidebar-toggle">&#9776;</button>
               <nav className="sidebar">
-                <a href="/protfolio" className="nav-link">Portfolio</a>
-                <a href="/contactus" className="nav-link">Contact Us</a>
-                <a href="/services" className="nav-link">Services</a>
-                <a href="/aboutus" className="nav-link">About Us</a>
+                <NavLink to="/portfolio" className="nav-link">Portfolio</NavLink>
+                <NavLink to="/contactus" className="nav-link">Contact Us</NavLink>
+                <NavLink to="/services" className="nav-link">Services</NavLink>
+                <NavLink to="/aboutus" className="nav-link">About Us</NavLink>
               </nav>
             </div>
 
