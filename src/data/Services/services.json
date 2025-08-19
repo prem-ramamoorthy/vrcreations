@@ -10,7 +10,7 @@
       "Database Design & Implementation",
       "API Development & Integration"
     ],
-    "price": "Starting from $299"
+    "price": "Starting from ₹3999"
   },
   {
     "icon": "cpu",
@@ -23,7 +23,7 @@
       "Sensor Integration & Automation",
       "Hardware Testing & Validation"
     ],
-    "price": "Starting from $399"
+    "price": "Starting from ₹4999"
   },
   {
     "icon": "file-text",
@@ -36,7 +36,7 @@
       "Research Papers & Publications",
       "Code Documentation & Comments"
     ],
-    "price": "Starting from $199"
+    "price": "Starting from ₹2699"
   },
   {
     "icon": "box",
@@ -49,6 +49,6 @@
       "Quality Assurance & Debugging",
       "Demo & Presentation Preparation"
     ],
-    "price": "Starting from $249"
+    "price": "Starting from ₹1999"
   }
 ]

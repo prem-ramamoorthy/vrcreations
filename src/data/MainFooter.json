@@ -34,45 +34,45 @@
     "Company" : [
         {
             "name" : "About Us" ,
-            "link" : "#"
+            "link" : "/aboutus"
         },
         {
             "name" : "Our Team" ,
-            "link" : "#"
+            "link" : "/aboutus"
         },
         {
             "name" : "Careers" ,
-            "link" : "#"
+            "link" : "/careers"
         },
         {
             "name" : "Contact Us",
-            "link" : "#"
+            "link" : "/contactus"
         },
         {
             "name" : "Portfolio" ,
-            "link" : "#"
+            "link" : "/portfolio"
         }
     ] ,
     "Legal" : [
         {
             "name" : "Privacy Policy" ,
-            "link" : "#"
+            "link" : "/privacypolicy"
         },
         {
             "name" : "Terms of Service" ,
-            "link" : "#"
+            "link" : "/termsofservice"
         },
         {
             "name" : "Cookie Policy" ,
-            "link" : "#"
+            "link" : "/cookie"
         },
         {
             "name" : "Refund Policy",
-            "link" : "#"
+            "link" : "/refundpolicy"
         },
         {
             "name" : "Academic Ethics" ,
-            "link" : "#"
+            "link" : "/academicethics"
         }
     ]
 }

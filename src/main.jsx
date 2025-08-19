@@ -7,9 +7,10 @@ import AboutUs from './aboutUs/AboutUs'
 import ServicePage from './Services/ServicePage'
 import Signin from './signupPage/Signin'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import NotFound from './NotFound/NotFound'
 
 const router = createBrowserRouter([
-  { path: '/', element: <MainPage /> },
+  { path: '/', element: <MainPage /> , errorElement: <NotFound />},
   { path: '/contactus', element: <ContactUsPage /> },
   { path: '/services', element: <ServicePage /> },
   { path: '/aboutus', element: <AboutUs /> },

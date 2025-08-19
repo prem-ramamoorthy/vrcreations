@@ -197,6 +197,7 @@
     border: 1px solid hsl(var(--border));
     border-radius: 1rem;
     overflow: hidden;
+    max-width: 500px;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 

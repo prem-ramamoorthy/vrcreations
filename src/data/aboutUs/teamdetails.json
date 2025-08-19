@@ -1,25 +1,25 @@
 [
     {
         "icon" : "code",
-        "name" : "Alex Johnson",
+        "name" : "Prem Kumar R",
         "role" : "Lead Software Engineer",
-        "description" : "10+ years in full-stack development, specializing in modern web technologies and mobile applications."
+        "description" : "5+ years in full-stack development, specializing in modern web technologies and mobile applications."
     },
     {
     "icon": "cpu",
-    "name": "Sarah Chen",
+    "name": "VeeraRagavan N",
     "role": "Hardware Specialist",
     "description": "Expert in embedded systems, IoT devices, and electronic circuit design with 8+ years experience."
   },
   {
     "icon": "file-text",
-    "name": "Michael Davis",
+    "name": "Akash S",
     "role": "Documentation Lead",
     "description": "Technical writer with expertise in creating comprehensive project documentation and research papers."
   },
   {
     "icon": "settings",
-    "name": "Emily Rodriguez",
+    "name": "Shashanth",
     "role": "Project Manager",
     "description": "Ensures timely delivery and quality standards across all projects with proven project management skills."
   }

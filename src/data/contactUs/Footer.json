@@ -13,7 +13,7 @@
                 },
                 {
                     "name": "About",
-                    "link": "/about"
+                    "link": "/aboutus"
                 },
                 {
                     "name": "Services",
@@ -25,7 +25,7 @@
                 },
                 {
                     "name": "Contact",
-                    "link": "/contact"
+                    "link": "/contactus"
                 }
             ]
         },
@@ -54,15 +54,15 @@
             "header": "Contact Info",
             "list": [
                 {
-                    "name": "📧 info@vrcreations.com",
+                    "name": "📧 pkrprem2005@gmail.com",
                     "link": null
                 },
                 {
-                    "name": "📞 +1 (555) 123-4567",
+                    "name": "📞 +91 6380498136",
                     "link": null
                 },
                 {
-                    "name": "📍 123 Innovation St, Tech City",
+                    "name": "📍 VIT Bhopal Ashta Tehsil, Sehore, Madhya Pradesh - 466114",
                     "link": null
                 }
             ]

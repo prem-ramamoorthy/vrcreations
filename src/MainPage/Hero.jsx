@@ -52,7 +52,7 @@ function Hero() {
               <ArrowRight className="icon" />
             </a>
 
-            <a href="#portfolio" className="btn btn-outline">
+            <a href="/portfolio" className="btn btn-outline">
               View Our Work
             </a>
           </div>

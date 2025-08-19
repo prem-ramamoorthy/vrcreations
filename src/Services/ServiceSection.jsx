@@ -34,7 +34,6 @@ function ServiceSection() {
                 </ul>
                 <div className="service-price">
                     <span className="price-text">{service.price}</span>
-                    <button className="service-button">Learn More</button>
                 </div>
             </div>
         );

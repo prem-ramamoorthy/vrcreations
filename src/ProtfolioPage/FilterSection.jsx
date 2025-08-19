@@ -1,29 +1,30 @@
-import data from '/src/data/Protfolio/filterButtons.json'
-import { useState, useEffect } from 'react'
+import data from '/src/data/Protfolio/filterButtons.json';
+import { useState, useEffect } from 'react';
 
-function FilterSection() {
+function FilterSection({ activeFilter, setActiveFilter }) {
+  const [buttonsName, setButtons] = useState([]);
 
-    const [buttonsName, setButtons] = useState([]);
+  useEffect(() => {
+    setButtons(data);
+  }, []);
 
-    useEffect(() => {
-        setButtons(data);
-    }, [])
-
-    const ButtonComponents = buttonsName.map((button, index) => {
-        return (
-            index == 0 ? <button className="filter-tab active" key={index}>{button.buttonName}</button> : <button className="filter-tab" key={index}>{button.buttonName}</button>
-        );
-    });
-
-    return (
-        <section className="filter-section">
-            <div className="container">
-                <div className="filter-tabs">
-                    {ButtonComponents}
-                </div>
-            </div>
-        </section>
-    )
+  return (
+    <section className="filter-section">
+      <div className="container">
+        <div className="filter-tabs">
+          {buttonsName.map((button, index) => (
+            <button
+              key={index}
+              className={`filter-tab ${activeFilter === button.buttonName ? 'active' : ''}`}
+              onClick={() => setActiveFilter(button.buttonName)}
+            >
+              {button.buttonName}
+            </button>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 }
 
-export default FilterSection
+export default FilterSection;

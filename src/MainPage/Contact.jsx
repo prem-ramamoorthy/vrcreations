@@ -29,13 +29,13 @@ function Contact() {
                     </p>
 
                     <div className="cta-buttons">
-                        <a href="#contact" className="btn btn-gradient">
+                        <a href="/contactus" className="btn btn-gradient">
                             <MessageCircle className="icon" />
                             Contact Us
                             <ArrowRight className="icon" />
                         </a>
 
-                        <a href="#consultation" className="btn btn-outline-white">
+                        <a href="/contactus" className="btn btn-outline-white">
                             Get Free Consultation
                         </a>
                     </div>

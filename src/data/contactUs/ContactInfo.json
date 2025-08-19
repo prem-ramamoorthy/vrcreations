@@ -4,11 +4,11 @@
         "title" : "Email Us" ,
         "details" : [
             {
-                "link" : "mailto:info@vrcreations.com" ,
+                "link" : "mailto:pkrprem2005@gmail.com" ,
                 "name" :"info@vrcreations.com"
             },
             {
-                "link" : "mailto:projects@vrcreations.com",
+                "link" : "mailto:pkrprem2005@gmail.com",
                 "name" : "projects@vrcreations.com" 
             }
         ] ,
@@ -19,12 +19,12 @@
         "title" : "Call Us" ,
         "details" : [
             {
-                "link" : "tel:+15551234567" ,
-                "name" : "+1 (555) 123-4567"
+                "link" : "tel:+91 6380498136" ,
+                "name" : "+91 6380498136"
             },
             {
-                "link" : "tel:+15551234568",
-                "name" : "+1 (555) 123-4568"
+                "link" : "tel:+91 8610237292",
+                "name" : "+91 8610237292"
             }
         ] ,
         "footer" : "Mon-Fri: 9 AM - 8 PM EST"
@@ -34,11 +34,11 @@
         "title" : "Live Chat" ,
         "details" : [
             {
-                "link" : "https://wa.me/15551234567" ,
-                "name" : "WhatsApp: +1 (555) 123-4567"
+                "link" : "https://wa.me/6380498136" ,
+                "name" : "WhatsApp: +91  6380498136"
             },
             {
-                "link" : "tel:+15551234568",
+                "link" : "tel:+91 6380498136",
                 "name" : "Telegram: @vrcreations"
             }
         ] ,
@@ -48,7 +48,7 @@
         "icon" : "MapPin" , 
         "title" : "Visit Us" ,
         "details" : [
-            "123 Innovation Street" , "Tech District, TC 12345" , "United States"
+            "VIT Bhopal" , "Ashta Tehsil , Sehore " , "Madhya Pradesh - 466114"
         ]
     }
 ]

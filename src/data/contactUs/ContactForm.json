@@ -53,20 +53,20 @@
             "value" : ""
         } ,
         {
-            "name" :"Under $500" ,
-            "value" : "under-500"
+            "name" :"Under ₹2000" ,
+            "value" : "under-2000"
         } ,
         {
-            "name" :"$500 - $1,000" ,
-            "value" : "500-1000"
+            "name" :"₹2000 - ₹3,500" ,
+            "value" : "2000-3500"
         } ,
         {
-            "name" : "$1,000 - $2,000" ,
-            "value" : "1000-2000"
+            "name" : "₹3,500 - $5,000" ,
+            "value" : "3500-5000"
         } ,
         {
-            "name" : "$2,000+" ,
-            "value" : "2000-plus"
+            "name" : "₹5,000+" ,
+            "value" : "5000-plus"
         } ,
         {
             "name" : "Let's Discuss" ,

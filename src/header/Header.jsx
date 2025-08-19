@@ -24,19 +24,19 @@ function Header() {
               </div>
 
               <div className="nav-links">
-                <NavLink to="/portfolio" className="nav-link">Portfolio</NavLink>
-                <NavLink to="/contactus" className="nav-link">Contact Us</NavLink>
-                <NavLink to="/services" className="nav-link">Services</NavLink>
-                <NavLink to="/aboutus" className="nav-link">About Us</NavLink>
+                <NavLink to="/portfolio#" className="nav-link">Portfolio</NavLink>
+                <NavLink to="/contactus#" className="nav-link">Contact Us</NavLink>
+                <NavLink to="/services#" className="nav-link">Services</NavLink>
+                <NavLink to="/aboutus#" className="nav-link">About Us</NavLink>
               </div>
 
               <div className="sidebar-container">
                 <button className="sidebar-toggle">&#9776;</button>
                 <nav className="sidebar">
-                  <NavLink to="/portfolio" className="nav-link">Portfolio</NavLink>
-                  <NavLink to="/contactus" className="nav-link">Contact Us</NavLink>
-                  <NavLink to="/services" className="nav-link">Services</NavLink>
-                  <NavLink to="/aboutus" className="nav-link">About Us</NavLink>
+                  <NavLink to="/portfolio#" className="nav-link">Portfolio</NavLink>
+                  <NavLink to="/contactus#" className="nav-link">Contact Us</NavLink>
+                  <NavLink to="/services#" className="nav-link">Services</NavLink>
+                  <NavLink to="/aboutus#" className="nav-link">About Us</NavLink>
                 </nav>
               </div>
 
