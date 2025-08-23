@@ -4,13 +4,13 @@ import { getAnalytics } from "firebase/analytics";
 import { getAuth } from "firebase/auth"; 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDCKcDFC0CAsmYw1FwgXz1C7Jnc5CZUKmM",
-  authDomain: "vrcreations-fdee8.firebaseapp.com",
-  projectId: "vrcreations-fdee8",
-  storageBucket: "vrcreations-fdee8.firebasestorage.app",
-  messagingSenderId: "805712584489",
-  appId: "1:805712584489:web:efe792ac395a55ed2f2138",
-  measurementId: "G-869YP7WE8F"
+  apiKey: import.meta.env.VITE_APIKEY,
+  authDomain: import.meta.env.VITE_AUTHDOMAIN,
+  projectId: import.meta.env.VITE_PROJECTID,
+  storageBucket: import.meta.env.VITE_STORAGEBUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGINGSENDERID,
+  appId: import.meta.env.VITE_APPID,
+  measurementId: import.meta.env.VITE_MEASUREMENTID
 };
 
 const app = initializeApp(firebaseConfig);
