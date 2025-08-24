@@ -8,6 +8,7 @@ import ServicePage from './Services/ServicePage'
 import Signin from './signupPage/Signin'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import NotFound from './NotFound/NotFound'
+import './index.css'
 
 const router = createBrowserRouter([
   { path: '/', element: <MainPage /> , errorElement: <NotFound />},
