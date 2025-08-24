@@ -1,76 +1,64 @@
 {
-    "projectTypes" : [
+    "projectTypes": [
         {
-            "name" :"Select Project Type" ,
-            "value" : ""
-        } ,
+            "name": "Software Development",
+            "value": "software"
+        },
         {
-            "name" :"Software Development"  ,
-            "value" : "software"
-        } , 
+            "name": "Hardware Engineering",
+            "value": "hardware"
+        },
         {
-            "name" : "Hardware Engineering" ,
-            "value" : "hardware"
-        } ,
+            "name": "Technical Documentation",
+            "value": "documentation"
+        },
         {
-            "name" : "Technical Documentation" ,
-            "value" : "documentation"
-        } ,
+            "name": "Prototyping & Testing",
+            "value": "prototype"
+        },
         {
-            "name" : "Prototyping & Testing" ,
-            "value" : "prototype"
-        } ,
-        {
-            "name" : "Complete Solution (A to Z)" ,
-            "value" : "complete"
+            "name": "Complete Solution (A to Z)",
+            "value": "complete"
         }
-    ] ,
-    "projectTime" : [
+    ],
+    "projectTime": [
         {
-            "name" :"Select Timeline" ,
-            "value" : ""
-        } ,
-                {
-            "name" :"Urgent (1-2 weeks)",
-            "value" : "urgent"
-        } ,
+            "name": "Urgent (1-2 weeks)",
+            "value": "urgent"
+        },
         {
-            "name" :"Normal (3-4 weeks)" ,
-            "value" : "normal"
-        } ,
-                {
-            "name" : "Extended (5+ weeks)",
-            "value" : "extended"
-        } ,
-                {
-            "name" : "Flexible" ,
-            "value" : "flexible"
+            "name": "Normal (3-4 weeks)",
+            "value": "normal"
+        },
+        {
+            "name": "Extended (5+ weeks)",
+            "value": "extended"
+        },
+        {
+            "name": "Flexible",
+            "value": "flexible"
         }
-    ] , 
-    "budget" : [
+    ],
+    "budget": [
         {
-            "name" :"Select Budget Range" ,
-            "value" : ""
-        } ,
+            "name": "Under ₹2000",
+            "value": "under-2000"
+        },
         {
-            "name" :"Under ₹2000" ,
-            "value" : "under-2000"
-        } ,
+            "name": "₹2000 - ₹3,500",
+            "value": "2000-3500"
+        },
         {
-            "name" :"₹2000 - ₹3,500" ,
-            "value" : "2000-3500"
-        } ,
+            "name": "₹3,500 - ₹5,000",
+            "value": "3500-5000"
+        },
         {
-            "name" : "₹3,500 - $5,000" ,
-            "value" : "3500-5000"
-        } ,
+            "name": "₹5,000+",
+            "value": "5000-plus"
+        },
         {
-            "name" : "₹5,000+" ,
-            "value" : "5000-plus"
-        } ,
-        {
-            "name" : "Let's Discuss" ,
-            "value" : "discuss"
+            "name": "Let's Discuss",
+            "value": "discuss"
         }
     ]
 }

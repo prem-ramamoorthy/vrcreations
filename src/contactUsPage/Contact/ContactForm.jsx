@@ -63,22 +63,49 @@ function ContactForm() {
     const { id, value } = e.target;
     setForm((prev) => ({ ...prev, [id]: value }));
   };
+  const WEB3FORMS_KEY = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!user) {
       setLoading(true);
       try {
         localStorage.setItem(DRAFT_KEY, JSON.stringify(form));
-      } catch {}
+      } catch { }
       navigate("/signin");
       setTimeout(() => setLoading(false), 300);
       return;
     }
+    if (!form.name || !form.email || !form.projectType || !form.message) {
+      alert("Please fill all required fields.");
+      return;
+    }
     try {
       setLoading(true);
-
+      const payload = {
+        access_key: WEB3FORMS_KEY,
+        from_name: "Website Contact Form",
+        subject: `New Order : ${form.projectType || "Inquiry"}`,
+        reply_to: form.email,
+        name: form.name,
+        email: form.email,
+        phone: form.phone,
+        projectType: form.projectType,
+        timeline: form.timeline,
+        budget: form.budget,
+        message: form.message,
+        firebase_uid: user?.uid || "",
+        firebase_email: user?.email || "",
+      };
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify(payload),
+      });
+      const data = await res.json();
+      if (!res.ok || !data.success) {
+        throw new Error(data.message || "Submission failed");
+      }
       localStorage.removeItem(DRAFT_KEY);
-
       setForm({
         name: "",
         email: "",
@@ -89,7 +116,7 @@ function ContactForm() {
         message: "",
       });
 
-      alert("Message sent successfully!");
+      alert("Message sent successfully! We will get back to you soon.");
     } catch (err) {
       console.error(err);
       alert("Failed to send message. Please try again.");
@@ -97,7 +124,6 @@ function ContactForm() {
       setLoading(false);
     }
   };
-
   const typeComponent = projectType.map((type, index) => {
     return (
       <option value={type.value} key={index}>
@@ -105,7 +131,6 @@ function ContactForm() {
       </option>
     );
   });
-
   const timeComponent = projectTime.map((time, index) => {
     return (
       <option value={time.value} key={index}>
@@ -113,7 +138,6 @@ function ContactForm() {
       </option>
     );
   });
-
   const budgetComponent = budget.map((budgetElement, index) => {
     return (
       <option value={budgetElement.value} key={index}>
@@ -121,7 +145,6 @@ function ContactForm() {
       </option>
     );
   });
-
   return (
     <div className="contact-form">
       <h2
@@ -269,7 +292,7 @@ function ContactForm() {
               color: "hsl(var(--muted-foreground))",
             }}
           >
-            Note: An account is required to submit. Progress is saved automatically.
+            Kindly sign in to your account to submit the form. Your progress is saved automatically.
           </p>
         )}
       </form>
