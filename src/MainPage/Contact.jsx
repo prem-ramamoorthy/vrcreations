@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import data from '../data/MainpageCtaInfo.json'
 import { MessageCircle, ArrowRight } from "lucide-react";
+import { NavLink } from "react-router-dom";
 
 function Contact() {
 
@@ -29,17 +30,15 @@ function Contact() {
                     </p>
 
                     <div className="cta-buttons">
-                        <a href="/contactus" className="btn btn-gradient">
+                        <NavLink to="/contactus" className="btn btn-gradient">
                             <MessageCircle className="icon" />
                             Contact Us
                             <ArrowRight className="icon" />
-                        </a>
-
-                        <a href="/contactus" className="btn btn-outline-white">
+                        </NavLink>
+                        <NavLink to="/contactus" className="btn btn-outline-white" style={{ border: "3px solid white" }}>
                             Get Free Consultation
-                        </a>
+                        </NavLink>
                     </div>
-
                     <div className="cta-info">
                         {ctaInfoComponents}
                     </div>
