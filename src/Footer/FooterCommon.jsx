@@ -51,7 +51,7 @@ function FooterCommon() {
                         </div>
                     </div>
                     <div className="footer-bottom">
-                        <p>&copy; 2024 VR Creations. All rights reserved.</p>
+                        <p>&copy; 2025 VR Creations. All rights reserved.</p>
                     </div>
                 </div>
             </footer>
