@@ -17,9 +17,21 @@
     "role": "Documentation Lead",
     "description": "Technical writers with expertise in creating comprehensive project documentation and research papers."
   },
+{
+    "icon": "file-text",
+    "name": "Veronica T",
+    "role": "Documentation Lead",
+    "description": "Technical writers with expertise in creating comprehensive project documentation and research papers."
+  },
   {
     "icon": "settings",
-    "name": "Sri Hari Hara Pandiyan, Shashanth",
+    "name": "Sri Hari Hara Pandiyan",
+    "role": "Project Managers",
+    "description": "Ensures timely delivery and quality standards across all projects with proven project management skills."
+  },
+{
+    "icon": "settings",
+    "name": "Shashanth",
     "role": "Project Managers",
     "description": "Ensures timely delivery and quality standards across all projects with proven project management skills."
   },
