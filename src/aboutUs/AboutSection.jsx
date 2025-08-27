@@ -27,7 +27,7 @@ function AboutSection() {
                 <div className="about-grid">
                     <div className="about-text">
                         <h2>Who We Are</h2>
-                        <p>VR Creations is a dedicated team of experienced professionals passionate about helping students
+                        <p>VR Creations is a dedicated team of experienced students passionate about helping other students
                             achieve academic success through innovative project solutions.</p>
                         <p>Founded by industry experts with years of experience in software development, hardware
                             engineering, and technical documentation, we understand the challenges students face in today's
