@@ -2,12 +2,13 @@
     {
         "category": "Software",
         "icon": "smartphone",
-        "projectTitle": "Smart Campus Navigation App",
-        "description": "A mobile application that helps students navigate campus buildings with real-time location tracking and indoor mapping.",
+        "projectTitle": "Face Recognition using OpenCV",
+        "description": "This project demonstrates face detection and recognition using OpenCV in Python. It captures faces from a webcam, trains a recognizer, and identifies faces in real time.",
         "techTag": [
-            "React Native",
-            "Firebase",
-            "Google Maps API"
+            "Python",
+            "OpenCV",
+            "NumPy"
+            "Haar Cascades"
         ],
         "grade": "A+",
         "links": [
@@ -68,8 +69,10 @@
     {
         "category": "Software",
         "icon": "shopping-cart",
-        "projectTitle": "E-Commerce Platform",
-        "description": "Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
+        "projectTitle": "KairosPredict",
+        "description": "KairosPredict is an intelligent stock trend prediction application that analyzes historical patterns using clustering algorithms and machine learning to forecast future market behavior. It provides real-time insights through a user-friendly graphical interface backed by robust data processing and model evaluation.
+
+",
         "techTag": [
             "React",
             "Node.js",
@@ -113,8 +116,10 @@
     {
         "category": "Software",
         "icon": "graduation-cap",
-        "projectTitle": "Student Management System",
-        "description": "Comprehensive system for managing student records, grades, attendance, and course scheduling.",
+        "projectTitle": "Email Scheduler (SaaS) with FastAPI",
+        "description": "A backend-only SaaS application built with FastAPI that allows users to schedule emails with token-based authentication and email sending limits based on subscription plans.
+
+",
         "techTag": [
             "Java",
             "Spring Boot",
