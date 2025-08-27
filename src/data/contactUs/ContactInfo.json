@@ -1,50 +1,52 @@
 [
     {
-        "icon" : "mail" , 
-        "title" : "Email Us" ,
-        "details" : [
+        "icon": "mail",
+        "title": "Email Us",
+        "details": [
             {
-                "link" : "mailto:vrcreationsstudio@gmail.com" ,
-                "name" :"vrcreationsstudio@gmail.com"
+                "link": "mailto:vrcreationsstudio@gmail.com",
+                "name": "vrcreationsstudio@gmail.com"
             },
             {
-                "link" : "mailto:pkrprem2005@gmail.com",
-                "name" : "pkrprem2005@gmail.com" 
+                "link": "mailto:pkrprem2005@gmail.com",
+                "name": "pkrprem2005@gmail.com"
             }
-        ] ,
-        "footer" : "Response within 24 hours"
+        ],
+        "footer": "Response within 24 hours"
     },
     {
-        "icon" : "phone" , 
-        "title" : "Call Us" ,
-        "details" : [
+        "icon": "phone",
+        "title": "Call Us",
+        "details": [
             {
-                "link" : "tel:+91 8610237292" ,
-                "name" : "+91 8610237292"
+                "link": "tel:+91 8610237292",
+                "name": "+91 8610237292"
             },
             {
-                "link" : "tel:+91 6380498136",
-                "name" : "+91 6380498136"
+                "link": "tel:+91 6380498136",
+                "name": "+91 6380498136"
             }
-        ] ,
-        "footer" : "Monday-Sunday: 9 AM - 8 PM EST"
+        ],
+        "footer": "Monday-Sunday: 9 AM - 8 PM EST"
     },
     {
-        "icon" : "MessageCircle" , 
-        "title" : "Live Chat" ,
-        "details" : [
+        "icon": "MessageCircle",
+        "title": "Live Chat",
+        "details": [
             {
-                "link" : "https://wa.me/8610237292" ,
-                "name" : "WhatsApp: +91  8610237292"
-            },
-        ] ,
-        "footer" : "Available 24/7"
+                "link": "https://wa.me/8610237292",
+                "name": "WhatsApp: +91  8610237292"
+            }
+        ],
+        "footer": "Available 24/7"
     },
     {
-        "icon" : "MapPin" , 
-        "title" : "Visit Us" ,
-        "details" : [
-            "VIT Bhopal" , "Ashta Tehsil , Sehore " , "Madhya Pradesh - 466114"
+        "icon": "MapPin",
+        "title": "Visit Us",
+        "details": [
+            "VIT Bhopal",
+            "Ashta Tehsil , Sehore ",
+            "Madhya Pradesh - 466114"
         ]
     }
 ]
