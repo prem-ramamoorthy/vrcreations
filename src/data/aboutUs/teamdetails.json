@@ -12,11 +12,11 @@
     "description": "Expert in embedded systems, IoT devices, and electronic circuit design with 6+ years experience."
   },
   {
-    "icon": "file-text",
-    "name": "Akash S",
-    "role": "Documentation Lead",
-    "description": "Technical writers with expertise in creating comprehensive project documentation and research papers."
-  },
+        "icon" : "code",
+        "name" : "Akash S",
+        "role" : "Software Engineer",
+        "description" : "Specializing in web Backend and modern web technologies."
+},
 {
     "icon": "file-text",
     "name": "Veronica T",
