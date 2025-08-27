@@ -1,16 +1,8 @@
 {
     "socialLinks" : [
         {
-            "icon" :"facebook",
-            "link" : "#"
-        } , 
-        {
-            "icon" : "twitter" ,
-            "link" : "#"
-        }  ,
-        {
             "icon" : "instagram",
-            "link" : "#"
+            "link" : "https://www.instagram.com/vr_creations_studio?utm_source=ig_web_button_share_sheet&igsh=eWU2NWNraDNxcXA5"
         }  ,
         {
             "icon" : "linkedin" ,

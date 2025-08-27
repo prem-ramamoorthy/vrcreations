@@ -7,20 +7,26 @@
     },
     {
     "icon": "cpu",
-    "name": "VeeraRagavan N",
+    "name": "Veeraragavan N",
     "role": "Hardware Specialist",
-    "description": "Expert in embedded systems, IoT devices, and electronic circuit design with 8+ years experience."
+    "description": "Expert in embedded systems, IoT devices, and electronic circuit design with 6+ years experience."
   },
   {
     "icon": "file-text",
-    "name": "Akash S",
+    "name": "Akash S, Veronica T",
     "role": "Documentation Lead",
-    "description": "Technical writer with expertise in creating comprehensive project documentation and research papers."
+    "description": "Technical writers with expertise in creating comprehensive project documentation and research papers."
   },
   {
     "icon": "settings",
-    "name": "Shashanth",
-    "role": "Project Manager",
+    "name": "Sri Hari Hara Pandiyan, Shashanth",
+    "role": "Project Managers",
     "description": "Ensures timely delivery and quality standards across all projects with proven project management skills."
+  },
+ {
+    "icon": "box",
+    "name": "Kesvin P Vinod",
+    "role": "3D Designer",
+    "description": "3+ Years of experience in 3D Designing/Modelling, Rendering"
   }
 ]
