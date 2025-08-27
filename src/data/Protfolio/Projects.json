@@ -22,19 +22,41 @@
         ]
     },
     {
+        "category": "Documentation",
+        "icon": "code",
+        "projectTitle": "Research Paper on Emotion-Aware Interface for Patient",
+        "description": "Emotion-aware IoT healthcare enables personalized care by monitoring both emotional and physical states.",
+        "techTag": [
+            "Research",
+            "Theory",
+            "IOT"
+        ],
+        "grade": "A+",
+        "links": [
+            {
+                "icon": "github",
+                "link": "#"
+            },
+            {
+                "icon": "external-link",
+                "link": "#"
+            }
+        ]
+    },
+    {
         "category": "Hardware",
         "icon": "home",
         "projectTitle": "IoT Home Automation System",
         "description": "Complete smart home solution with sensor integration, automated lighting, and remote control via mobile app.",
         "techTag": [
-            "Arduino",
+            "Blynk",
             "ESP32",
-            "IoT Sensors"
+            "IoT"
         ],
         "grade": "A",
         "links": [
             {
-                "icon": "github",
+                "icon": "cpu",
                 "link": "#"
             },
             {
@@ -69,17 +91,17 @@
     {
         "category": "Hardware",
         "icon": "activity",
-        "projectTitle": "Health Monitoring Device",
-        "description": "Wearable device that monitors vital signs and sends real-time data to healthcare providers.",
+        "projectTitle": "Autonomus Survillence Bot",
+        "description": "Autonomus Bot that patrols and give the real-time video footage and instant images with timestamp on telegram.",
         "techTag": [
-            "Raspberry Pi",
+            "ESP32 CAM",
             "Sensors",
-            "Bluetooth"
+            "Arduino"
         ],
-        "grade": "A",
+        "grade": "A+",
         "links": [
             {
-                "icon": "github",
+                "icon": "cpu",
                 "link": "#"
             },
             {
@@ -98,7 +120,7 @@
             "Spring Boot",
             "MySQL"
         ],
-        "grade": "A+",
+        "grade": "A",
         "links": [
             {
                 "icon": "github",
@@ -112,13 +134,13 @@
     },
     {
         "category": "Prototype",
-        "icon": "car",
-        "projectTitle": "Autonomous Vehicle Prototype",
-        "description": "Scale model of an autonomous vehicle with obstacle detection, path planning, and remote monitoring.",
+        "icon": "box",
+        "projectTitle": "Drone 3D design",
+        "description": "Scale model of a drone with all details and rendering of it.",
         "techTag": [
-            "Computer Vision",
-            "Python",
-            "OpenCV"
+            "3D Design",
+            "Rendering",
+            "Modelling"
         ],
         "grade": "A",
         "links": [
