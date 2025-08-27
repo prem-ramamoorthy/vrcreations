@@ -7,7 +7,7 @@
         "techTag": [
             "Python",
             "OpenCV",
-            "NumPy"
+            "NumPy",
             "Haar Cascades"
         ],
         "grade": "A+",
@@ -24,7 +24,7 @@
     },
     {
         "category": "Documentation",
-        "icon": "code",
+        "icon": "smartphone",
         "projectTitle": "Research Paper on Emotion-Aware Interface for Patient",
         "description": "Emotion-aware IoT healthcare enables personalized care by monitoring both emotional and physical states.",
         "techTag": [
@@ -68,16 +68,14 @@
     },
     {
         "category": "Software",
-        "icon": "shopping-cart",
+        "icon": "code",
         "projectTitle": "KairosPredict",
-        "description": "KairosPredict is an intelligent stock trend prediction application that analyzes historical patterns using clustering algorithms and machine learning to forecast future market behavior. It provides real-time insights through a user-friendly graphical interface backed by robust data processing and model evaluation.
-
-",
+        "description": "KairosPredict is an intelligent stock trend prediction application that analyzes historical patterns using clustering algorithms and machine learning to forecast future market behavior",
         "techTag": [
-            "React",
-            "Node.js",
-            "MongoDB",
-            "Stripe API"
+            "NumPy",
+            "Pandas",
+            "TradingView API",
+            " Pillow (PIL)"
         ],
         "grade": "A+",
         "links": [
@@ -92,7 +90,7 @@
         ]
     },
     {
-        "category": "Hardware",
+        "category": "code",
         "icon": "activity",
         "projectTitle": "Autonomus Survillence Bot",
         "description": "Autonomus Bot that patrols and give the real-time video footage and instant images with timestamp on telegram.",
@@ -115,15 +113,13 @@
     },
     {
         "category": "Software",
-        "icon": "graduation-cap",
+        "icon": "code",
         "projectTitle": "Email Scheduler (SaaS) with FastAPI",
-        "description": "A backend-only SaaS application built with FastAPI that allows users to schedule emails with token-based authentication and email sending limits based on subscription plans.
-
-",
+        "description": "A backend-only SaaS application built with FastAPI that allows users to schedule emails with token-based authentication and email sending limits based on subscription plans.",
         "techTag": [
-            "Java",
-            "Spring Boot",
-            "MySQL"
+            "FastAPI",
+            "SQLite",
+            "APScheduler"
         ],
         "grade": "A",
         "links": [
