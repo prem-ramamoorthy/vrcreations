@@ -1,4 +1,5 @@
 import { Code, Cpu, FileText, Wrench, ArrowRight } from "lucide-react";
+import { NavLink } from "react-router-dom";
 
 function Hero() {
   return (
@@ -18,30 +19,38 @@ function Hero() {
 
           <div className="service-icons">
             <div className="service-icon">
-              <div className="service-icon-bg">
-                <Code className="icon" />
-              </div>
+              <NavLink to="/services">
+                <div className="service-icon-bg">
+                  <Code className="icon" style={{ color: "black" }} />
+                </div>
+              </NavLink>
               <span className="service-icon-text">Software</span>
             </div>
 
             <div className="service-icon">
-              <div className="service-icon-bg">
-                <Cpu className="icon" />
-              </div>
+              <NavLink to="/services">
+                <div className="service-icon-bg">
+                  <Cpu className="icon" style={{ color: "black" }} />
+                </div>
+              </NavLink>
               <span className="service-icon-text">Hardware</span>
             </div>
 
             <div className="service-icon">
-              <div className="service-icon-bg">
-                <FileText className="icon" />
-              </div>
+              <NavLink to="/services">
+                <div className="service-icon-bg">
+                  <FileText className="icon" style={{ color: "black" }} />
+                </div>
+              </NavLink>
               <span className="service-icon-text">Documentation</span>
             </div>
 
             <div className="service-icon">
-              <div className="service-icon-bg">
-                <Wrench className="icon" />
-              </div>
+              <NavLink to="/services">
+                <div className="service-icon-bg">
+                  <Wrench className="icon" style={{ color: "black" }} />
+                </div>
+              </NavLink>
               <span className="service-icon-text">Prototypes</span>
             </div>
           </div>
@@ -52,9 +61,9 @@ function Hero() {
               <ArrowRight className="icon" />
             </a>
 
-            <a href="/portfolio" className="btn btn-outline">
+            <NavLink to="/portfolio" className="btn btn-outline" style={{ border: "3px solid white" }}>
               View Our Work
-            </a>
+            </NavLink>
           </div>
 
           <div className="hero-stats">
