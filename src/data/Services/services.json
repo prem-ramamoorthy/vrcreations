@@ -10,7 +10,7 @@
       "Database Design & Implementation",
       "API Development & Integration"
     ],
-    "price": "Starting from ₹3999"
+    "price": "Starting from ₹499"
   },
   {
     "icon": "cpu",
@@ -23,7 +23,7 @@
       "Sensor Integration & Automation",
       "Hardware Testing & Validation"
     ],
-    "price": "Starting from ₹4999"
+    "price": "Starting from ₹499"
   },
   {
     "icon": "file-text",
@@ -36,19 +36,19 @@
       "Research Papers & Publications",
       "Code Documentation & Comments"
     ],
-    "price": "Starting from ₹2699"
+    "price": "Starting from ₹199"
   },
   {
     "icon": "box",
     "title": "Prototyping & Testing",
     "description": "Rapid prototyping and thorough testing to ensure your project works flawlessly.",
     "features": [
-      "3D Modeling & Printing",
+      "3D Modeling & Rendering",
       "Proof of Concept Development",
       "Performance Testing & Optimization",
       "Quality Assurance & Debugging",
       "Demo & Presentation Preparation"
     ],
-    "price": "Starting from ₹1999"
+    "price": "Starting from ₹499"
   }
 ]
