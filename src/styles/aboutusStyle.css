@@ -226,6 +226,7 @@
 
 .about-us-page .team-card:hover {
     transform: translateY(-5px);
+    box-shadow: 0 8px 32px hsl(263 70% 50% / 0.3);
 }
 
 .about-us-page .team-avatar {
