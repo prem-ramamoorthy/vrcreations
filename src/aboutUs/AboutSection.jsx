@@ -39,9 +39,9 @@ function AboutSection() {
                     <div className="about-image">
                         <div
                             style={{width: "100%", height: "300px", background: "var(--gradient-primary)", borderRadius: "1rem", display: "flex", alignItems: "center", justifyContent: "center"}}>
-                            <Users style={{width: "80px", height: "80px", color: "white"}} />
+                            <img href="/assets/Suit.jpg" style={{width: "80px", height: "80px", color: "white"}} />
                         </div>
-                    </div>
+                    </div> 
                 </div>
 
                 <div className="about-stats">
