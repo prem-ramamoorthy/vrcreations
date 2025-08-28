@@ -14,9 +14,7 @@ function TeamSection() {
         const Icon = Icons[(team.icon || "").charAt(0).toUpperCase() + (team.icon || "").slice(1)] || Icons.Code;
         return (
             <div className="team-card" key={index}>
-                <div className="team-avatar">
-                    <Icon style={{ width: "32px", height: "32px", color: "white" }} />
-                </div>
+                <img src={team.icon} alt={team.name} style={{ width: "100%", height: "250px", objectFit: "cover", borderRadius: "1rem" }} />
                 <div className="team-name">{team.name}</div>
                 <div className="team-role">{team.role}</div>
                 <div className="team-desc">{team.description}</div>

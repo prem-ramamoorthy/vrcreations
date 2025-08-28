@@ -39,7 +39,7 @@ function AboutSection() {
                     <div className="about-image">
                         <div
                             style={{width: "100%", height: "300px", background: "var(--gradient-primary)", borderRadius: "1rem", display: "flex", alignItems: "center", justifyContent: "center"}}>
-                            <img href="/assets/Suit.jpg" style={{width: "80px", height: "80px", color: "white"}} />
+                            <img src="/assets/group.jpg" style={{width: "100%", height: "100%", color: "white" , objectFit: "cover" ,  borderRadius: "1rem" , } } />
                         </div>
                     </div> 
                 </div>

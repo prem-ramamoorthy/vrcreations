@@ -1,42 +1,42 @@
 [
-    {
-        "icon" : "code",
-        "name" : "Prem Kumar R",
-        "role" : "Lead Software Engineer",
-        "description" : "5+ years in full-stack development, specializing in modern web technologies and mobile applications."
-    },
-    {
-    "icon": "cpu",
+  {
+    "icon": "/assets/suite0.jpg",
+    "name": "Prem Kumar R",
+    "role": "Lead Software Engineer",
+    "description": "5+ years in full-stack development, specializing in modern web technologies and mobile applications."
+  },
+  {
+    "icon": "/assets/Suit.jpg",
     "name": "Veeraragavan N",
     "role": "Hardware Specialist",
     "description": "Expert in embedded systems, IoT devices, and electronic circuit design with 6+ years experience."
   },
   {
-        "icon" : "code",
-        "name" : "Akash S",
-        "role" : "Software Engineer",
-        "description" : "Specializing in web Backend and modern web technologies."
-},
-{
-    "icon": "file-text",
+    "icon": "/assets/suite2.jpg",
+    "name": "Akash S",
+    "role": "Software Engineer",
+    "description": "Specializing in web Backend and modern web technologies."
+  },
+  {
+    "icon": "https://i.pinimg.com/originals/ba/d7/86/bad786dfe4f227555be6fa2484b0b9a3.jpg",
     "name": "Veronica T",
     "role": "Documentation Lead",
     "description": "Technical writers with expertise in creating comprehensive project documentation and research papers."
   },
   {
-    "icon": "settings",
+    "icon": "/assets/suite1.jpg",
     "name": "Sri Hari Hara Pandiyan",
     "role": "Project Managers",
     "description": "Ensures timely delivery and quality standards across all projects with proven project management skills."
   },
-{
-    "icon": "settings",
+  {
+    "icon": "/assets/suite4.jpg",
     "name": "Shashanth",
     "role": "Project Managers",
     "description": "Ensures timely delivery and quality standards across all projects with proven project management skills."
   },
- {
-    "icon": "box",
+  {
+    "icon": "/assets/suite3.jpg",
     "name": "Kesvin P Vinod",
     "role": "3D Designer",
     "description": "3+ Years of experience in 3D Designing/Modelling, Rendering"
