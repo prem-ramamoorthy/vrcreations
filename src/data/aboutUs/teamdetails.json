@@ -40,5 +40,11 @@
     "name": "Kesvin P Vinod",
     "role": "3D Designer",
     "description": "3+ Years of experience in 3D Designing/Modelling, Rendering"
-  }
+  },
+   {
+    "icon": "/assets/Suit.jpg",
+    "name": "Vasudev P",
+    "role": "Hardware Engineer",
+    "description": "Good at dealing with electrical and electronics, has a good experiences."
+  },
 ]
