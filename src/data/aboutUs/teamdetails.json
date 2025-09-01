@@ -18,7 +18,7 @@
     "description": "Specializing in web Backend and modern web technologies."
   },
   {
-    "icon": "public/assets/female icon.jpg",
+    "icon": "/assets/female icon.jpg",
     "name": "Harshitha Priyaa G R",
     "role": "Documentation Lead",
     "description": "Technical writers with expertise in creating comprehensive project documentation and reports."
