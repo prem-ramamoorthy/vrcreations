@@ -24,9 +24,9 @@
     },
     {
         "category": "Documentation",
-        "icon": "smartphone",
-        "projectTitle": "Research Paper on Emotion-Aware Interface for Patient",
-        "description": "Emotion-aware IoT healthcare enables personalized care by monitoring both emotional and physical states.",
+        "icon": "smartphone",    
+        "projectTitle": "Research Paper on AI-Driven Image Indexing and Retrieval for SkinCancer Diagnostics",
+        "description": "This review paper examines the association of Artificial Intelligence (AI) and Database Management Systems (DBMS) within medical diagnostic systems built around image processing methodology.",
         "techTag": [
             "Research",
             "Theory",
