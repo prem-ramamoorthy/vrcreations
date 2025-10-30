@@ -65,7 +65,7 @@ function Header() {
                 <div className="logo-icon">
                   <NavLink to="/" onClick={(e) => loading && e.preventDefault()}>
                     <img
-                      src="/assets/logo.png"
+                      src="/assets/logobw.png"
                       alt="VR Creations Logo"
                       height="50"
                       width="90"
